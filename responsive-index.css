@@ -1,0 +1,408 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 1024px) {
+}
+
+@media only screen and (max-width: 1014px) {
+  main {
+    display: block;
+  }
+
+  section {
+    width: 100%;
+    height: auto;
+  }
+
+  /* About the left section */
+  #left-section {
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+
+    padding: 1rem 2rem;
+  }
+
+  #brand {
+    width: 50%;
+
+    align-items: start;
+    justify-content: center;
+    text-align: left;
+  }
+
+  #brand img {
+    width: 35%;
+  }
+
+  #school {
+    width: 50%;
+
+    align-items: flex-end;
+
+    text-align: right;
+  }
+
+  #school h5,
+  #school p {
+    width: auto;
+
+    text-align-last: right;
+  }
+
+  #school p {
+    margin-bottom: 0px;
+  }
+
+  #school small {
+    display: none;
+  }
+
+  /* About the mid section */
+  #mid-section {
+    height: auto;
+
+    border: none;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 1rem;
+  }
+
+  #form {
+    padding: 1.5rem 2rem;
+  }
+
+  .option-box {
+    width: 45%;
+  }
+
+  .semester-div-head h5 {
+    margin: 1rem 1.5rem;
+  }
+
+  .semester-div {
+    width: 100%;
+    height: auto;
+
+    margin-bottom: 2.5rem;
+  }
+
+  .period-boxes-div {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 1.5rem 2rem;
+  }
+
+  .period-box-head,
+  .period-box-bottom {
+    height: auto;
+
+    padding: 1rem 1.5rem;
+  }
+
+  .period-box-body {
+    height: auto;
+
+    margin: 1rem 0px;
+
+    justify-content: center;
+  }
+
+  .period-box {
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+
+  .subject-item {
+    padding: 0.6rem 1.5rem;
+  }
+
+  /* About the right section */
+  #right-section {
+    height: auto;
+
+    display: block;
+  }
+
+  .results-div {
+    height: auto;
+
+    padding: 0px 1rem 1rem;
+  }
+
+  .result-div-container {
+    display: block;
+    height: auto;
+  }
+
+  .period-result-div {
+    margin-top: 4rem;
+
+    border-radius: 20px;
+  }
+
+  .period-result-div ul,
+  .general-result-div ul {
+    padding: 1.5rem 0rem;
+  }
+
+  .general-result-div ul li {
+    padding: 0.8rem 1rem;
+  }
+
+  /* About the footer */
+  footer {
+    height: 10vh;
+  }
+}
+
+@media only screen and (max-width: 1014px) {
+  .form-div {
+    height: 20vh;
+  }
+
+  #form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .option-box {
+    width: 15%;
+  }
+
+  .submit-div
+  {
+    margin-top: 1.5rem;
+  }
+
+  .semester-div-head h5 {
+    margin: 1rem 0rem 1rem 2rem;
+  }
+
+  .period-boxes-div {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-column-gap: 1rem;
+  }
+
+  .period-box {
+    width: 40vw;
+  }
+
+  .result-div-container
+  {
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    grid-column-gap: 1rem;
+
+    align-items: top;
+
+    height: auto;
+
+    padding: 1.5rem 1rem;
+  }
+
+  .period-result-div
+  {
+    margin-top: 0px;
+
+    width: 41vw;
+  }
+
+  .period-result-div:nth-child(1)
+  {
+    margin-top: 0px;
+  }
+
+  .result-div-head
+  {
+    border-radius: 1rem 1rem 0px 0px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .period-boxes-div {
+    display: flex;
+  }
+
+  .period-box {
+    width: 100%;
+  }
+
+  #mid-section {
+    margin-top: 1.3rem;
+  }
+
+  #form {
+    padding: 1rem 2rem;
+  }
+
+  .semester-div {
+    display: flex;
+  }
+
+  .result-div-container
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .period-result-div
+  {
+    width: 100%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  #brand img
+  {
+    width: 60%;
+  }
+
+  #mid-section {
+    margin-top: 1rem;
+  }
+
+  .form-div
+  {
+    height: auto;
+  }
+
+  .option-box {
+    width: 45%;
+    
+    margin-bottom: 2.7rem;
+  }
+
+  .option-box:last-of-type {
+    margin-bottom: 1rem;
+  }
+
+  .semesters-div {
+    padding: 0 0rem;
+  }
+
+  .semester-div {
+    width: 100%;
+    height: 100%;
+
+    margin-bottom: 0.7rem;
+  }
+
+  .semester-div h5 {
+    margin: 1rem 0rem 0rem 2rem;
+  }
+
+  .period-boxes-div {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 1.7rem;
+  }
+
+  .period-box {
+    height: auto;
+    width: 100%;
+
+    margin-bottom: 2rem;
+  }
+
+  .period-box-head,
+  .period-box-bottom {
+    height: auto;
+
+    padding: 1rem 1.5rem;
+  }
+
+  .period-box-body {
+    height: auto;
+
+    margin: 1rem 0px;
+
+    justify-content: center;
+  }
+
+  .subject-item {
+    padding: 0.8rem 1.5rem;
+  }
+
+  #right-section {
+    display: block;
+
+    padding: 0;
+  }
+
+  .result-div-container
+  {
+    padding: 1rem;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 340px) {
+  :root {
+    /* typography */
+    --one-size: 4.1rem;
+    --two-size: 3.05rem;
+    --three-size: 2.26rem;
+    --four-size: 1.67rem;
+    --five-size: 1.13rem;
+    --body-size: 0.9rem;
+    --six-size: 0.75rem;
+    --seven-size: 0.56rem;
+    --eight-size: 0.42rem;
+  }
+
+  label {
+    font-size: var(--body-size);
+  }
+
+  button {
+    padding: 0.6rem 1.2rem;
+  }
+
+  #brand img {
+    width: 75%;
+  }
+
+  .period-boxes-div {
+    padding: 1rem;
+  }
+
+  .subject-item {
+    padding: 0.5rem 1.5rem;
+  }
+
+  .period-result-div {
+    margin-top: 1rem;
+  }
+
+  .period-result-div:nth-child(1) {
+    margin-top: 1rem;
+  }
+
+  .result-div-container
+  {
+    padding: 0rem;
+  }
+
+  .period-result-div ul,
+  .general-result-div ul {
+    padding: 0.8rem 0rem;
+  }
+}

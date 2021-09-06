@@ -1,0 +1,161 @@
+/* importing fonts */
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* styleguide */
+:root {
+  /* colors */
+  --black: #000707;
+  --white: #fbffff;
+
+  --main-green: #119aa2;
+  --very-light-blue: #aeecef;
+
+  --gray1: #bdbdbd;
+  --gray4: #e4e4e4;
+
+  --shadow: 0px 5px 20px rgba(0, 7, 7, 0.1);
+
+  /* typography */
+  --one-size: 4.2rem;
+  --two-size: 3.15rem;
+  --three-size: 2.36rem;
+  --four-size: 1.77rem;
+  --five-size: 1.33rem;
+  --body-size: 1rem;
+  --six-size: 0.75rem;
+  --seven-size: 0.56rem;
+  --eight-size: 0.42rem;
+
+  --title-family: "Barlow Condensed", sans-serif, cursive;
+  --body-family: "Barlow", sans-serif, cursive;
+
+  --thin: 100;
+  --extra-light: 200;
+  --light: 300;
+  --regular: 400;
+  --medium: 500;
+  --semibold: 600;
+  --bold: 700;
+  --extrabold: 800;
+  --blackbold: 900;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+
+  box-sizing: border-box;
+}
+
+p,
+small,
+span,
+label,
+a,
+input,
+button,
+option,
+select {
+  font-family: var(--body-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--title-family);
+}
+
+h1 {
+  font-size: var(--one-size);
+}
+
+h2 {
+  font-size: var(--two-size);
+}
+
+h3 {
+  font-size: var(--three-size);
+}
+
+h4,
+i {
+  font-size: var(--four-size);
+}
+
+h5 {
+  font-size: var(--five-size);
+}
+
+h6 {
+  font-size: var(--six-size);
+}
+
+p,
+input {
+  font-size: var(--body-size);
+}
+
+small {
+  font-size: var(--six-size);
+}
+
+button {
+  font-size: var(--body-size);
+
+  cursor: pointer;
+  border: 0px;
+  outline: none;
+
+  border-radius: 0.5rem;
+
+  font-weight: var(--semibold);
+
+  padding: 0.8rem 1.5rem;
+}
+
+select,
+input {
+  outline: none;
+
+  cursor: pointer;
+
+  background-color: transparent;
+}
+
+ul {
+  list-style: none;
+}
+
+.primary-btn {
+  background-color: var(--main-green);
+  color: var(--white);
+
+  border: 2px solid var(--main-green);
+}
+
+.secondary-btn {
+  background-color: transparent;
+  color: var(--main-green);
+
+  border: 2px solid var(--main-green);
+}
+
+.disabled {
+  pointer-events: none;
+  user-select: none;
+
+  background-color: var(--gray4);
+}
+
+.uil
+{
+  height: 1rem;
+  width: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
