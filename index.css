@@ -207,7 +207,7 @@ main {
 
 .period-box-head,
 .period-box-bottom {
-  height: 3.5rem;
+  height: 3rem;
   width: 100%;
 
   display: flex;
@@ -233,7 +233,7 @@ main {
   align-items: center;
   justify-content: space-between;
 
-  margin: 1rem 0px;
+  margin: 0.3rem 0px;
 }
 
 .subject-list {
